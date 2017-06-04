@@ -56,128 +56,104 @@ img#logo_aurorachi{
 	text-align:center;
 }
 
-
-/* Carousel */
-
-.btnCarousel{
-	border-radius: 0!important; 
-	border-color:white!important; 
-	background-color: transparent!important; 
-	text-shadow: 1px 1px 0.5px #777777!important; 
-	box-shadow: 2px 2px 2px #777777!important;
-}
-
-.btnCarousel:hover{
-	border-color:black!important;
-	background-color: black!important;
-}
-
-.slide1{
-	background-color: cyan;
-	height:500px;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover; 
-}
-
-.slide2{
-	background-color: pink;
-	height: 500px;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-
-.slide3{
-	background-color: orange;
-	height: 500px;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-
-#theCarousel{
-	margin-bottom: 40px;
-}
-
-.carousel-caption h1{
-	font-size: 4.5em;
-	font-family: 'Pacifico', cursive;
-	padding-bottom: 0.4em;
-}
-
-.carousel-caption p{
-	font-size: 1.5em;
-}
-
-
-/* Thumbnail */
-h3{
-	margin-top: 10px!important;
-}
-
-#newjewellery{
-	margin-top: 40px;
-	margin-bottom: 40px;
-}
-
-#newjewellerytitle{
-	margin-bottom: 30px!important;
-	text-align: center!important;
-	text-decoration: none!important;
-	font-size: 20;
-}
-
-
-#newjewellerytitle a:hover{
-	text-decoration: none!important;
-	opacity:0.6!important;
-}
-
-.caption{
-	text-align: center;
-	margin-right: 10px;
-	margin-left: 10px;
-}
-
-.btnjewellery{
-	border-radius: 0!important; 
-	border-color:black!important; 
-	color: black!important; 
-	background-color: transparent!important;
-}
-
-.btnjewellery:hover{
-	border-color:white!important; 
-	color: white!important; 
-	background-color: black!important;
-}
-
-.row .thumbnail {
-    border:none;
-    box-shadow:none;
-    border-radius:0;
-    -webkit-box-sizing: border-none;
-	-moz-box-sizing: border-none;
-	box-sizing: border-none;
-	background-color: transparent;
-}
-
-.thumbnail{
-	display: block;
-	background-color: transparent;
-}
-
 img{
 	margin:0px;
 }
 
+/* Content */
+.content{
+	margin-left:50px!important;
+	margin-right:50px!important;
+}
+
+.banner{
+	background-image: url('defy.jpg')!important;
+	height: 200px!important;
+	margin-bottom:40px!important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.video{
+	padding: 0px!important;
+}
+
+.videoDefy{
+	width:100%!important;
+	margin-bottom:40px!important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bannerTitle{
+	color:white;
+	text-align: center;
+	padding: 7.5px;
+	border:2px solid white;
+}
+
+.first_content{
+	background-image: url('defy.jpg')!important;
+	height: 400px!important;
+	margin-bottom:40px!important;
+	position: relative!important;
+	width: 30%!important;
+	padding: 0!important;
+}
+
+.first_content_xs{
+	background-image: url('defy.jpg')!important;
+	height: 180px!important;
+	margin-bottom:40px!important;
+	width:100%!important;
+}
+
+.dummy{
+	height:400px!important;
+	width: 5%!important;
+	background: white!important;
+	padding: 0!important;
+}
+
+.second_content{
+	background-image: url('defy.jpg')!important;
+	height: 180px!important;
+	margin-bottom:40px!important;
+	position: relative!important;
+	width: 65%!important;
+	padding: 0!important;
+}
+
+.second_content_xs{
+	background-image: url('defy.jpg')!important;
+	height: 180px!important;
+	margin-bottom:40px!important;
+	width:100%!important;
+}
+
+.third_content{
+	background-image: url('defy.jpg')!important;
+	height: 180px!important;
+	margin-bottom:40px!important;
+	position: relative!important;
+	width: 65%!important;
+	padding: 0!important;
+}
+
+.third_content_xs{
+	background-image: url('defy.jpg')!important;
+	height: 180px!important;
+	margin-bottom:40px!important;
+	width:100%!important;
+}
 
 /* Footer */
 footer{
 	background-color: white;
 	text-align: center;
-}	
+}
 
 .contactDetails{
 	text-decoration: none!important;
