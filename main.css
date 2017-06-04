@@ -81,11 +81,11 @@ img{
 
 .videoDefy{
 	width:100%!important;
-	height: 480px;
+	height: 480px!important;
 	margin-bottom:40px!important;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	display: flex!important;
+	justify-content: center!important;
+	align-items: center!important;
 }
 
 .bannerTitle{
