@@ -82,13 +82,15 @@ img{
 .videoDefy{
 	margin-bottom:40px!important;
 	display: flex!important;
+	height: 350px!important;
 	justify-content: center!important;
 	align-items: center!important;
 }
 
 object{
-	height: 480px;
-	padding:0;
+	position:relative!important;
+	height: 480%!important;
+	padding:0!important;
 }
 
 .bannerTitle{
