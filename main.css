@@ -94,65 +94,36 @@ img{
 	border:2px solid white;
 }
 
-.first_content{
-	background-image: url('defy.jpg')!important;
-	height: 400px!important;
-	margin-bottom:40px!important;
+.row .thumbnail {
+    border:none;
+    box-shadow:none;
+    border-radius:0;
+    -webkit-box-sizing: border-none;
+	-moz-box-sizing: border-none;
+	box-sizing: border-none;
+	background-color: transparent;
+}
+
+.thumbnail{
+	display: block;
+	background-color: transparent;
 	position: relative!important;
-	width: 30%!important;
 	padding: 0!important;
+	margin:0!important;
 }
 
-.first_content_xs{
-	background-image: url('defy.jpg')!important;
-	height: 180px!important;
-	margin-bottom:40px!important;
-	width:100%!important;
-}
-
-.dummy{
-	height:400px!important;
-	width: 5%!important;
-	background: white!important;
-	padding: 0!important;
-}
-
-.second_content{
-	background-image: url('defy.jpg')!important;
-	height: 180px!important;
-	margin-bottom:40px!important;
-	position: relative!important;
-	width: 65%!important;
-	padding: 0!important;
-}
-
-.second_content_xs{
-	background-image: url('defy.jpg')!important;
-	height: 180px!important;
-	margin-bottom:40px!important;
-	width:100%!important;
-}
-
-.third_content{
-	background-image: url('defy.jpg')!important;
-	height: 180px!important;
-	margin-bottom:40px!important;
-	position: relative!important;
-	width: 65%!important;
-	padding: 0!important;
-}
-
-.third_content_xs{
-	background-image: url('defy.jpg')!important;
-	height: 180px!important;
-	margin-bottom:40px!important;
-	width:100%!important;
+.img-responsive{
+	background-color: transparent;
+	max-width: 100%;
+	margin: 0!important;
+	z-index: 100;
 }
 
 /* Footer */
 footer{
 	background-color: white;
 	text-align: center;
+	margin-top: 40px ;
 }
 
 .contactDetails{
