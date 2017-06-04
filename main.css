@@ -86,6 +86,10 @@ img{
 	align-items: center!important;
 }
 
+object{
+	height: 480px;
+}
+
 .bannerTitle{
 	color:white;
 	text-align: center;
