@@ -75,24 +75,36 @@ img{
 	align-items: center;
 }
 
-.video{
-	padding: 0px!important;
-}
-
-.videoDefy{
-	width:100%!important;
-	height: 480px;
-	margin-bottom:40px!important;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
 .bannerTitle{
 	color:white;
 	text-align: center;
 	padding: 7.5px;
 	border:2px solid white;
+}
+
+.row .thumbnail {
+    border:none;
+    box-shadow:none;
+    border-radius:0;
+    -webkit-box-sizing: border-none;
+	-moz-box-sizing: border-none;
+	box-sizing: border-none;
+	background-color: transparent;
+}
+
+.thumbnail{
+	display: block;
+	background-color: transparent;
+	position: relative!important;
+	padding: 0!important;
+	margin:0!important;
+}
+
+.img-responsive{
+	background-color: transparent;
+	max-width: 100%;
+	margin: 0!important;
+	z-index: 100;
 }
 
 /* Footer */

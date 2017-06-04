@@ -67,7 +67,7 @@ img{
 }
 
 .banner{
-	background-image: url('defy.jpg')!important;
+	/*background-image: url('defy.jpg')!important;*/
 	height: 200px!important;
 	margin-bottom:40px!important;
 	display: flex;
@@ -83,7 +83,8 @@ img{
 }
 
 .first_content{
-	background-image: url('defy.jpg')!important;
+	/*background-image: url('defy.jpg')!important;*/
+	background: white;
 	height: 400px!important;
 	margin-bottom:40px!important;
 	position: relative!important;
