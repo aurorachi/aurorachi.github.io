@@ -76,17 +76,24 @@ img{
 }
 
 .video{
-	padding: 0px!important;
-	height: 450px!important;
+	position:relative;
+	padding-bottom:56.25%;
 }
 
-.videoDefy{
+.video iframe{
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left:0;
+}
+
+/*.videoDefy{
 	margin-bottom:40px!important;
 	display: flex!important;
-	height: 450px!important;
 	justify-content: center!important;
 	align-items: center!important;
-}
+}*/
 
 .video-sm{
 	padding: 0px!important;
