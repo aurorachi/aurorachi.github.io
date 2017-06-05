@@ -57,18 +57,20 @@ img#logo_aurorachi{
 	margin-bottom: 40px;
 }
 
+.navbar.navbar-default{
+	margin-left:50px!important;
+	margin-right:50px!important;
+}
+
+
 img{
 	margin:0px;
 }
 
 /* Content */
-.container{
+.content{
 	margin-left:50px!important;
 	margin-right:50px!important;
-}
-
-.container-fluid{
-	padding: 0!important;
 }
 
 .banner{

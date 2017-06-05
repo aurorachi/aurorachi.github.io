@@ -44,6 +44,7 @@ img#logo_aurorachi{
 	align-items: center;
 }
 
+
 /* Navigation Bar */
 .navbar .navbar-nav{
 	display: inline-block;
@@ -57,18 +58,20 @@ img#logo_aurorachi{
 	margin-bottom: 40px;
 }
 
-img{
-	margin:0px;
-}
-
-/* Content */
-.container{
+.navbar.navbar-default{
 	margin-left:50px!important;
 	margin-right:50px!important;
 }
 
-.container-fluid{
-	padding: 0!important;
+img{
+	margin:0px;
+}
+
+
+/* Content */
+.content{
+	margin-left:50px!important;
+	margin-right:50px!important;
 }
 
 .banner{
