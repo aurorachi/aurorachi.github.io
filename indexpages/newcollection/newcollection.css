@@ -35,12 +35,12 @@ ul li a:hover{
 
 img#logo_aurorachi{
 	display: block;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 5px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	height:25px;
+	height:70px;
 	align-items: center;
 }
 

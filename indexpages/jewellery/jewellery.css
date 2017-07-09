@@ -1,5 +1,6 @@
-body{
+html, body{
 	background: white;
+	overflow-x: none;
 }
 
 /* Fonts */
@@ -35,12 +36,12 @@ ul li a:hover{
 
 img#logo_aurorachi{
 	display: block;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 5px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	height:25px;
+	height:70px;
 	align-items: center;
 }
 
@@ -113,6 +114,24 @@ img{
 	max-width: 100%;
 	margin: 0!important;
 	z-index: 100;
+}
+
+.frame{
+	overflow: hidden;
+}
+
+.zoomin{
+	-webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+}
+
+.zoomin:hover{
+	-webkit-transform: scale(1.1); 
+	-moz-transform: scale(1.1); 
+	-ms-transform: scale(1.1); 
+	transform: scale(1.1); 
 }
 
 /* Footer */
