@@ -2,13 +2,19 @@ html, body{
 	height:100%;
 }
 
+body:before
+ {content: url("defy.jpg");
+                 width:0;
+                 height:0;
+                 display:none;}
+
 body{
 	margin: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center!important;
 	overflow: hidden;
-	background-image: url('defy.png');
+	background-image: url('defy.jpg');
 	background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
